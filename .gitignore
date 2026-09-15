@@ -1,0 +1,35 @@
+# Node.js
+node_modules
+
+
+.env
+.env.local
+.env.production
+
+# Prisma
+# prisma/migrations/
+/generated/prisma
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/*
+!.vscode/settings.json
+
+dist/
+
+# test coverage report
+coverage/
+
+# AI assistant context (not for repo)
+CLAUDE.md
+DECISIONS.local.md
+
+/src/generated/prisma
